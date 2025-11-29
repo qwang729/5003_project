@@ -1,0 +1,8 @@
+EmbDI ER Results (task: train-test)
+Timestamp: 2025-11-29 17:14:46
+Dataset: pipeline/datasets/fodors_zagats/fodors_zagats-master.csv
+
+Metrics:
+P: 1.0000
+R: 1.0000
+F: 1.0000

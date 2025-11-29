@@ -1,0 +1,8 @@
+EmbDI ER Results (task: train-test)
+Timestamp: 2025-11-29 17:36:52
+Dataset: pipeline/datasets/dblp_acm/dblp_acm-master.csv
+
+Metrics:
+P: 0.3738
+R: 0.9973
+F: 0.5438

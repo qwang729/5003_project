@@ -1,0 +1,8 @@
+EmbDI ER Results (task: train-test)
+Timestamp: 2025-11-29 17:23:16
+Dataset: pipeline/datasets/beer/beer-master.csv
+
+Metrics:
+P: 0.8657
+R: 0.8529
+F: 0.8593
