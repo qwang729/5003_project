@@ -6,7 +6,7 @@ Main script for EmbDI pipeline
 - Parses command line arguments (-d for config directory, -f for single config file)
 - Executes graph construction, random walks, embedding training, and integration tasks
 """
-# 手动将项目根目录添加到 Python 模块搜索路径
+
 import sys
 import os
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
