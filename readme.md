@@ -18,24 +18,27 @@ This repository contains the replication of the **EmbDI framework** (SIGMOD 2020
 
 The project directory is organized as follows:
 
-5003\_project/  
-├── run.py                  \# \[Recommended\] One-click startup script  
-├── requirements.txt        \# Python dependencies  
-├── README.md               \# Project documentation  
-├── data/                   \# Dataset directory  
-│   ├── fodors\_zagats-master.csv  
-│   ├── beer-master.csv  
-│   └── dblp\_acm-master.csv  
-├── EmbDI/                  \# Source Code Package  
-│   ├── \_\_init\_\_.py  
-│   ├── main.py             \# Main pipeline entry point  
-│   ├── edgelist.py         \# Data preprocessing & Graph conversion  
-│   ├── utils.py            \# Graph construction & Random walks  
-│   └── entity\_resolution.py\# Embedding matching logic  
-└── pipeline/               \# Configuration and Output  
-    ├── config\_files/       \# Configuration files (.ini)  
-    ├── dumps/              \# Intermediate files (edges, walks)  
-    └── results/            \# Final CSV results
+5003_PROJECT/
+├── EmbDI/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── edgelist.py
+│   ├── entity_resolution.py
+│   ├── main.py
+│   └── utils.py
+│
+├── pipeline/
+│   ├── config_files/
+│   ├── datasets/
+│   ├── dump/
+│   ├── edgelists/
+│   ├── embeddings/
+│   ├── generated-matches/
+│   ├── info/
+│   ├── matches/
+│   └── results/
+│   └── walks/
+
 
 ## **🛠️ Installation & Requirements**
 
