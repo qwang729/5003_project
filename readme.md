@@ -17,7 +17,7 @@ This repository contains the replication of the **EmbDI framework** (SIGMOD 2020
 ## **📂 Project Structure**
 
 The project directory is organized as follows:
-
+<pre>
 5003_PROJECT/
 ├── EmbDI/
 │   ├── __pycache__/
@@ -38,6 +38,7 @@ The project directory is organized as follows:
 │   ├── matches/
 │   └── results/
 │   └── walks/
+</pre>
 
 
 ## **🛠️ Installation & Requirements**
