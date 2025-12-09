@@ -83,13 +83,13 @@ python run.py
 If you prefer running the module directly, ensure you are in the root directory:
 
 \# Run Fodors-Zagats  
-python EmbDI/main.py \-f pipeline/config\_files/config-fodors.ini
+python3 EmbDI/main.py -f pipeline/config_files/reproducibility/entity_resolution/config-fodors_zagats-er
 
 \# Run Beer Dataset  
-python EmbDI/main.py \-f pipeline/config\_files/config-beer.ini
+python3 EmbDI/main.py -f pipeline/config_files/reproducibility/entity_resolution/config-beer-er
 
 \# Run DBLP-ACM  
-python EmbDI/main.py \-f pipeline/config\_files/config-dblp.ini
+python3 EmbDI/main.py -f pipeline/config_files/reproducibility/entity_resolution/config-dblp_acm-er
 
 ## **📊 Experimental Results**
 
